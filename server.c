@@ -18,8 +18,7 @@ int main() {
                         "Content-Type: text/plain\r\n"
                         "Content-Length: 13\r\n\r\n"
                         "Hello, World!";
-    
-    
+                        
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
         perror("Socket creation failed");
         exit(EXIT_FAILURE);
